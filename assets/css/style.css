@@ -70,14 +70,14 @@ TABLE OF CONTENTS:-
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
-  --color-main:#0066ff;
-  --color-primary:#0066ff;
-  --color-secondary:#02b5ff;
-  --color-blue2: #4a00e1;
-  --color-blue4: #5842bc;
-  --color-blue5: #157efb;
-  --color-blue6: #6640f4;
-  --color-blue7: #8169f1;
+  --color-main:#fff000;
+  --color-primary:#fff000;
+  --color-secondary:#fff000;
+  --color-blue2: #fff000;
+  --color-blue4: #fff000;
+  --color-blue5: #fff000;
+  --color-blue6: #fff000;
+  --color-blue7: #fff000;
   --color-lightBlue:#15f1ff;
   --color-darkBlue:#010049;
   --color-darkBlue2:#1f227d;
@@ -90,7 +90,7 @@ TABLE OF CONTENTS:-
   --color-yellowGreen:#cef54b;
   --color-gray:#eef4f8;
   --color-gray2:#f0eff5;
-  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%);
+  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #fff000 100%);
 }
 
 .color-main {
@@ -15150,7 +15150,7 @@ footer.style-15 .foot p {
   padding: 50px;
   background-color: var(--color-blue5);
   border-radius: 5px;
-  color: #fff;
+  color: #000;
   position: sticky;
   top: 100px;
 }
@@ -15170,7 +15170,7 @@ footer.style-15 .foot p {
 .faq-page.style-5 .faq-body .faq-category li a {
   position: relative;
   font-weight: 500;
-  color: #fff;
+  color: #000;
 }
 .faq-page.style-5 .faq-body .faq-category li a::before {
   position: absolute;
@@ -15179,14 +15179,14 @@ footer.style-15 .foot p {
   top: 50%;
   height: 1px;
   width: 0;
-  background-color: #fff;
+  background-color: #000;
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .faq-page.style-5 .faq-body .faq-category li a:hover, .faq-page.style-5 .faq-body .faq-category li a.active {
-  color: #fff;
+  color: #000;
   padding-left: 35px;
 }
 .faq-page.style-5 .faq-body .faq-category li a:hover::before, .faq-page.style-5 .faq-body .faq-category li a.active::before {
